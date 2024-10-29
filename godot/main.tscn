@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv8rb8nbjyuvm"]
+
+[ext_resource type="Texture2D" uid="uid://ceo8h57rso18s" path="res://icon.svg" id="1_ah0e3"]
+
+[node name="main" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 276.0
+offset_top = 121.0
+offset_right = 806.0
+offset_bottom = 144.0
+text = "Needed to change Node type to \"Player\" here after compiling rust lib"
+
+[node name="Player2D" type="Player" parent="."]
+position = Vector2(380, 309)
+texture = ExtResource("1_ah0e3")
